@@ -1,2 +1,2 @@
-# techdegree-project-1
+# Techdegree Project 1
  Quote Generator Project
