@@ -10,8 +10,8 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
-
-
+// Quotes can be found in js/quotes.js
+console.log(quotes);
 
 /***
  * `getRandomQuote` function
