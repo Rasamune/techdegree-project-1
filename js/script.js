@@ -38,7 +38,7 @@ function printQuote() {
   if (quote.tags) {
     html += `<br>`;
     for ( let i = 0; i < quote.tags.length; i++ ){
-      html += `<span class="tags">/ ${quote.tags[i]} </span>`;
+      html += `<span class="tags"> ${quote.tags[i]} </span>`;
     }
   }
   html += `</p>`;
@@ -64,7 +64,7 @@ function randomBackgroundColor() {
   const red = Math.floor(Math.random() * 255);
   const green = Math.floor(Math.random() * 255);
   const blue = Math.floor(Math.random() * 255);
-  const rgb = `rgb(${red},${green},${blue})`;
+  const rgb = `rgb(${red}, ${green}, ${blue})`;
 
   // Update Background Color
   document.body.style.backgroundColor = rgb;

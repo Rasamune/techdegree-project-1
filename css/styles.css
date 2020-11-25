@@ -120,6 +120,10 @@ h1 {
   font-style: italic;
 }
 
+.tags:before {
+  content: "/ ";
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
